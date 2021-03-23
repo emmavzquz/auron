@@ -1,0 +1,114 @@
+body {
+    background-color: bisque;
+}
+/* Permet de regrouper dans une div tous les éléments de la carte */
+#bloc {
+    background-color: lightblue;
+    width: 380px;
+    height: 244px;
+    margin:  0px 8px 8px -16px;
+    border-radius: 8px 8px 8px 8px;
+}
+#blocCarte {
+  /* dimensionne la carte*/
+  width: 380px;
+  height: 244px;
+  /* marge auto à D et G et centre la carte */ 
+  margin: auto;
+  background-color: lightblue;
+  /* Arrondis les angles */
+  border-radius: 8px 8px 8px 8px;
+}
+h3 {
+	color: white;
+  /* Transforme les lettres en majuscule */
+  text-transform: uppercase;
+}
+h4 {
+	text-align: left;
+	background-color: white;
+	margin-left: 180px;
+    padding-left: 10px;
+    border: 2px;
+    width: 90px;
+    /* Arrondis les angles */
+    border-radius: 8px;
+}
+.date {
+  width: 106px;
+}
+h6 {
+  text-align: center;
+  background-color: white;
+  margin-left: 180px;
+  padding-left: 10px;
+  border: 10px;
+  text-align:left;
+  width: 180px;
+  /* Arrondis les angles */
+  border-radius: 8px;
+}
+#photo {
+  width: 110px;
+  /* flotte à gauche dans son bloc */
+  float:left;
+  margin: 0px 0px 0px -15px;
+}
+#acces {
+  margin-left: 0px;
+  /* flotte à gauche dans son bloc */
+  float:left;
+  width:53px;
+  height:243px;
+  /* DÉBUT Orientation du texte ACCÈS */
+  /* Ligne affichée verticalement - left to right */
+  writing-mode: vertical-lr;
+  /* orientation du texte sur une ligne */
+  text-orientation: upleft;
+  /* Rotation du texte à 180° */
+  transform: rotate(180deg);
+  /* FIN Orientation du texte ACCÈS */
+  margin-left: 0px;
+  background-color: green;
+  text-indent: 30%;
+  padding-left: 10px;
+  /* Arrondis les angles */
+  border-radius: 0px 8px 8px 0px;
+}
+#lycee {
+  margin-top: -15px;
+  background-color: darkgreen;
+  width: 380px;
+  height: 37px;
+  /* Arrondis les angles */
+  border-radius: 8px 8px 0px 0px;
+}
+#ligneBasGauche {
+width: 49.9%;
+display: inline;
+text-align: left;
+background-color: white;
+padding-left: 10px;
+/* Arrondis les angles */
+border-radius: 8px;
+}
+#BlocLignesBas {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 67px;
+}
+#ligneBasDroit {
+width: 49.9%;
+display: inline;
+text-align: right;
+background-color: white;
+margin-left: 0px;
+/* Arrondis les angles */
+border-radius: 8px;
+}
+#logo {
+  float: right;
+  width: 20%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
